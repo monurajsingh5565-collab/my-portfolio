@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kritesh Anjana | SOC Analyst L1</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f3f6fb;--panel:#fff;--ink:#0f1c33;--mute:#56647d;--line:#dbe2ee;--brand:#1f3864;--pop:#2f7cf6;--chip:#e6eefb;--chipink:#1f3864;--link:#1a5fb4;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0a1424;--panel:#12223b;--ink:#eaf0fa;--mute:#9db0cc;--line:#25395a;--brand:#eaf0fa;--pop:#5aa2ff;--chip:#1b3357;--chipink:#cfe1ff;--link:#8ab8ff}}
+:root[data-theme="dark"]{--bg:#0a1424;--panel:#12223b;--ink:#eaf0fa;--mute:#9db0cc;--line:#25395a;--brand:#eaf0fa;--pop:#5aa2ff;--chip:#1b3357;--chipink:#cfe1ff;--link:#8ab8ff}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.65 "Source Sans 3",system-ui,sans-serif}
+h1,h2,h3{font-family:"Bricolage Grotesque","Source Sans 3",system-ui,sans-serif;line-height:1.1;margin:0}
+a{color:var(--link)}a:focus-visible,.btn:focus-visible{outline:3px solid var(--pop);outline-offset:2px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 22px}
+nav{position:sticky;top:0;z-index:5;background:#0b1a33;border-bottom:1px solid #22385c;padding-top:env(safe-area-inset-top,0px)}
+nav .wrap{display:flex;gap:6px 24px;align-items:center;height:54px;overflow-x:auto;white-space:nowrap}
+nav b{font:800 18px "Bricolage Grotesque",sans-serif;color:#fff;margin-right:auto}
+nav a{color:#b8c8e4;text-decoration:none;font-weight:600;font-size:15px}nav a:hover{color:#fff}
+.hero{background:#0b1a33;color:#fff;padding:72px 0 80px;position:relative;overflow:hidden;
+background-image:linear-gradient(rgba(90,162,255,.08) 1px,transparent 1px),linear-gradient(90deg,rgba(90,162,255,.08) 1px,transparent 1px);background-size:44px 44px}
+.hero:after{content:"";position:absolute;right:-120px;top:-120px;width:460px;height:460px;border-radius:50%;background:radial-gradient(circle,rgba(47,124,246,.45),transparent 65%)}
+.hero .wrap{position:relative;z-index:1;display:grid;grid-template-columns:1fr 1.05fr;gap:44px;align-items:center}
+.term{background:#050d1a;border:1px solid #2a4570;border-radius:12px;box-shadow:0 20px 50px rgba(0,0,0,.45);overflow:hidden}
+.bar{display:flex;align-items:center;gap:7px;padding:10px 14px;background:#0f2038;border-bottom:1px solid #22385c}
+.bar i{width:11px;height:11px;border-radius:50%;background:#ff5f56}.bar i:nth-child(2){background:#ffbd2e}.bar i:nth-child(3){background:#27c93f}
+.bar em{margin-left:auto;font:normal 12px ui-monospace,Menlo,Consolas,monospace;color:#7f95b8}
+.term pre{margin:0;padding:16px 18px;min-height:440px;font:13.5px/1.55 ui-monospace,Menlo,Consolas,monospace;color:#cfe1ff;white-space:pre-wrap;word-break:break-word}
+.term .p{color:#5fd08f}.term .o{color:#5fd08f}.term .c{color:#ff8a80}.term .d{color:#7f95b8}.term .h{color:#7db4ff}
+.cur{display:inline-block;width:8px;height:15px;background:#cfe1ff;vertical-align:-2px;animation:bl 1s steps(1) infinite}
+@keyframes bl{50%{opacity:0}}
+.cap{font-size:12px;color:#7f95b8;padding:0 18px 12px}
+@media(max-width:860px){.hero .wrap{grid-template-columns:1fr}.term pre{min-height:300px;font-size:12.5px}}
+@media(prefers-reduced-motion:reduce){.cur{animation:none}}
+.hi{font-weight:600;color:#7db4ff;margin:0 0 10px}
+.hero h1{font-size:clamp(46px,9vw,92px);font-weight:800;letter-spacing:-.03em}
+.role{font:500 clamp(20px,3vw,28px) "Bricolage Grotesque",sans-serif;color:#cfe1ff;margin:14px 0 20px}
+.lead{max-width:68ch;color:#c3d1e8;margin:0 0 26px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 30px}
+.chips span{padding:5px 13px;border:1px solid #33507e;border-radius:99px;font-size:14px;font-weight:600;color:#dbe8ff;background:rgba(255,255,255,.05)}
+.btns{display:flex;flex-wrap:wrap;gap:12px}
+.btn{display:inline-block;padding:12px 22px;border-radius:8px;font-weight:600;text-decoration:none;border:1.5px solid #5aa2ff;color:#fff}
+.btn.p{background:#2f7cf6;border-color:#2f7cf6}.btn:hover{filter:brightness(1.15)}
+section{padding:60px 0}
+h2.t{font-size:clamp(28px,4vw,38px);font-weight:800;color:var(--brand);margin-bottom:28px;display:flex;align-items:center;gap:14px}
+h2.t:after{content:"";flex:1;height:2px;background:linear-gradient(90deg,var(--pop),transparent)}
+.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:22px;box-shadow:0 1px 2px rgba(15,28,51,.06)}
+.card h3{font-size:19px;color:var(--brand);margin-bottom:12px}
+.tag{display:flex;flex-wrap:wrap;gap:7px}.tag span,.tools span{background:var(--chip);color:var(--chipink);border-radius:6px;padding:3px 10px;font-size:14px;font-weight:600}
+.proj{display:grid;grid-template-columns:repeat(auto-fit,minmax(310px,1fr));gap:18px}
+.proj .card{border-top:4px solid var(--pop);display:flex;flex-direction:column}
+.proj h3{font-size:21px;margin-bottom:10px}
+.tools{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px}
+.proj ul,.card ul{margin:0;padding-left:20px;color:var(--mute)}.proj li,.card li{margin:5px 0}
+.demo{margin-top:auto;padding-top:14px;font-weight:600;text-decoration:none}.demo:hover{text-decoration:underline}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:18px}
+.when{color:var(--pop);font-weight:600;margin:0 0 6px}
+.alt{background:var(--panel);border-block:1px solid var(--line)}
+.stats{display:flex;flex-wrap:wrap;gap:14px;margin:0 0 30px}
+.stat{text-decoration:none;transition:transform .15s,border-color .15s;min-width:140px;padding:14px 20px;border:1px solid #33507e;border-radius:12px;background:rgba(255,255,255,.06)}
+.stat:hover{transform:translateY(-3px);border-color:#5aa2ff}.stat b{display:block;font:800 32px "Bricolage Grotesque",sans-serif;color:#fff;line-height:1}
+.stat small{color:#b8c8e4;font-size:14px}
+.marks{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin-top:18px}
+.mark{background:var(--panel);border:1px solid var(--line);border-top:4px solid var(--pop);border-radius:12px;padding:20px}
+.mark b{display:block;font:800 44px "Bricolage Grotesque",sans-serif;color:var(--brand);line-height:1}
+.mark span{display:block;font-weight:600;margin-top:8px}.mark small{color:var(--mute)}
+.card.link{display:block;text-decoration:none;color:inherit}.card.link:hover{border-color:var(--pop)}
+footer{background:#0b1a33;color:#c3d1e8;text-align:center;padding:56px 0 64px}
+footer h2{color:#fff;font-size:36px;margin-bottom:8px}footer a{color:#9cc4ff;font-weight:600}
+footer .btns{justify-content:center;margin-top:22px}
+</style></head><body>
+<nav aria-label="Sections"><div class="wrap"><b>KA</b><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#training">Training</a><a href="#education">Education</a><a href="#contact">Contact</a></div></nav>
+<header class="hero"><div class="wrap">
+<div>
+<p class="hi">Hello, I'm</p>
+<h1>Kritesh Anjana</h1>
+<p class="role">SOC Analyst L1</p>
+<p class="lead">Cybersecurity-focused B.Tech IT student with hands-on home-lab experience in SIEM monitoring, log analysis, alert triage, and incident documentation. Skilled in Splunk (SPL queries and dashboards), Wireshark packet analysis, and Jira ticketing, with working knowledge of EDR (CrowdStrike Falcon) and the MITRE ATT&amp;CK framework. Seeking a SOC Analyst L1 role to monitor alerts, triage incidents, and escalate threats in a real security operations environment.</p>
+<div class="chips"><span>Splunk SIEM</span><span>Wireshark</span><span>Jira</span><span>CrowdStrike Falcon</span><span>MITRE ATT&amp;CK</span><span>Kali Linux</span></div>
+<div class="btns"><a class="btn p" href="#projects">View projects</a><a class="btn" href="mailto:monuanjana123@gmail.com">Email me</a><a class="btn" href="https://www.linkedin.com/in/YOUR-HANDLE">LinkedIn</a><a class="btn" href="https://github.com/YOUR-HANDLE">GitHub</a></div>
+</div>
+<div class="term" aria-label="Simulated blue-team log analysis in a terminal"><div class="bar"><i></i><i></i><i></i><em>kritesh@soc-lab: ~</em></div><pre id="t" aria-hidden="true"></pre><div class="cap">Simulated log hunt on my home lab, for demonstration. Sample IPs only.</div></div>
+</div></header>
+
+<section id="skills"><div class="wrap"><h2 class="t">Technical skills</h2>
+<div class="skills">
+<div class="card"><h3>SIEM and monitoring</h3><div class="tag"><span>Splunk SIEM</span><span>SPL</span><span>Log analysis</span><span>Security monitoring</span><span>Alert triage</span><span>Dashboards</span></div></div>
+<div class="card"><h3>Incident response</h3><div class="tag"><span>Incident triage</span><span>True/false positive analysis</span><span>Escalation</span><span>Incident documentation</span><span>Brute-force detection</span></div></div>
+<div class="card"><h3>Endpoint and threat tools</h3><div class="tag"><span>CrowdStrike Falcon (basic)</span><span>EDR concepts</span><span>VirusTotal</span><span>Email header analysis</span><span>Phishing analysis</span></div></div>
+<div class="card"><h3>Network analysis</h3><div class="tag"><span>Wireshark</span><span>TCP/IP</span><span>HTTP</span><span>Traffic analysis</span></div></div>
+<div class="card"><h3>Ticketing and frameworks</h3><div class="tag"><span>Jira</span><span>MITRE ATT&amp;CK</span></div></div>
+<div class="card"><h3>Operating systems</h3><div class="tag"><span>Linux</span><span>Kali Linux</span><span>Windows</span></div></div>
+</div></div></section>
+
+<section id="projects" class="alt"><div class="wrap"><h2 class="t">Projects</h2>
+<div class="proj">
+<article class="card"><h3>SOC Home Lab &amp; Log Analysis</h3><div class="tools"><span>Splunk</span><span>Wireshark</span><span>Kali Linux</span><span>Jira</span></div><ul><li>Built an end-to-end home lab to simulate security monitoring and event tracking.</li><li>Created custom SPL queries and dashboards to filter, search, and investigate logs; logged incidents in Jira.</li></ul></article>
+<article class="card"><h3>SSH Logs Monitoring Dashboard</h3><div class="tools"><span>Splunk</span><span>Linux</span></div><ul><li>Built a Splunk dashboard tracking failed and successful SSH logins and repeated login attempts from a single source.</li><li>Wrote SPL queries to detect brute-force patterns and visualised them by source IP and user.</li></ul><a class="demo" href="https://YOUR-SSH-DEMO-LINK">Demo &rarr;</a></article>
+<article class="card"><h3>SOC L1 Alert Triage (Simulated)</h3><div class="tools"><span>Splunk</span><span>Jira</span></div><ul><li>Triaged simulated SIEM alerts and classified them as true positive, false positive, or needs escalation.</li><li>Documented triage decisions and escalation notes in Jira, mirroring a real SOC ticketing workflow.</li></ul><a class="demo" href="https://YOUR-TRIAGE-DEMO-LINK">Demo &rarr;</a></article>
+<article class="card"><h3>SOC L1 Alert Handling Automation</h3><div class="tools"><span>Splunk</span><span>Python</span></div><ul><li>Automated repetitive triage tasks such as scheduled Splunk searches, severity tagging, and summary notes.</li></ul></article>
+<article class="card"><h3>SOC Network Threat Investigation</h3><div class="tools"><span>Wireshark</span><span>Kali Linux</span></div><ul><li>Captured and analysed traffic in Wireshark to identify unusual behaviour in simulated attacks.</li><li>Correlated packet-level findings with known attack signatures to trace the source of suspicious activity.</li></ul></article>
+<article class="card"><h3>Phishing Email Analysis</h3><div class="tools"><span>Email header analysis</span><span>VirusTotal</span></div><ul><li>Analysed sample phishing emails using header analysis and VirusTotal to identify spoofed senders and malicious links.</li></ul></article>
+</div></div></section>
+
+<section id="training"><div class="wrap"><h2 class="t">Training</h2>
+<article class="card"><h3>Cyber Security Virtual Training &amp; Lab Practice</h3><ul><li>Monitored security events and analysed alerts in Splunk SIEM to identify suspicious user activity.</li><li>Practised log and packet analysis with Wireshark to investigate traffic and identify anomalies.</li><li>Learned EDR concepts and how CrowdStrike Falcon works; studied MITRE ATT&amp;CK techniques to understand common attack vectors.</li></ul></article>
+</div></section>
+
+<section id="education" class="alt"><div class="wrap"><h2 class="t">Education and achievements</h2>
+<div class="two">
+<article class="card"><h3>B.Tech in Information Technology</h3><p class="when">2024 – 2028</p><p style="margin:0;color:var(--mute)">Rajasthan Technical University, Rajasthan, India</p></article>
+<article class="card"><h3>Achievements</h3><ul><li>Technical Club Coordinator</li><li>Hackathon Coordinator</li></ul></article>
+</div>
+<div class="marks">
+<div class="mark"><b>8.20</b><span>SGPA</span><small>B.Tech IT, Rajasthan Technical University</small></div>
+<div class="mark"><b>76.6%</b><span>Class 12</span><small>CBSE</small></div>
+<div class="mark"><b>88.8%</b><span>Class 10</span><small>RBSE</small></div>
+</div></div></section>
+
+<footer id="contact"><div class="wrap"><h2>Let's talk</h2>
+<p>Open to SOC Analyst L1 roles and internships.</p>
+<p><a href="mailto:monuanjana123@gmail.com">monuanjana123@gmail.com</a> &nbsp;|&nbsp; <a href="tel:+918890791126">+91 8890791126</a></p>
+<div class="btns"><a class="btn p" href="https://www.linkedin.com/in/YOUR-HANDLE">LinkedIn</a><a class="btn" href="https://github.com/YOUR-HANDLE">GitHub</a></div></div></footer>
+<script>
+(function(){
+var el=document.getElementById("t");if(!el)return;
+var steps=[
+{c:"tail -n 3 /var/log/auth.log",o:[["Sep 28 02:14:07 sshd[2211]: Failed password for root from 203.0.113.45","c"],["Sep 28 02:14:09 sshd[2211]: Failed password for admin from 203.0.113.45","c"],["Sep 28 02:14:12 sshd[2214]: Failed password for root from 203.0.113.45","c"]]},
+{c:"grep 'Failed password' /var/log/auth.log | awk '{print $(NF-3)}' | sort | uniq -c | sort -rn | head -3",o:[["     42 203.0.113.45","c"],["      5 198.51.100.7","d"],["      1 192.0.2.18","d"]]},
+{c:"splunk search 'index=linux \"Failed password\" | stats count by src_ip | sort -count'",o:[["src_ip            count","h"],["203.0.113.45        42","c"],["198.51.100.7          5","d"],["192.0.2.18            1","d"]]},
+{c:"echo 'Brute-force pattern from 203.0.113.45. Escalate and log in Jira.'",o:[["Brute-force pattern from 203.0.113.45. Escalate and log in Jira.","o"]]}
+];
+var reduce=window.matchMedia&&matchMedia("(prefers-reduced-motion: reduce)").matches;
+var NL=String.fromCharCode(10);
+function esc(x){return x.replace(/&/g,"&amp;").replace(/</g,"&lt;")}
+function pr(){return '<span class="p">kritesh@soc-lab</span>:<span class="h">~</span>$ '}
+function line(l){return (l[1]?'<span class="'+l[1]+'">'+esc(l[0])+"</span>":esc(l[0]))+NL}
+var cur='<span class="cur"></span>';
+if(reduce){var h="";steps.forEach(function(st){h+=pr()+esc(st.c)+NL;st.o.forEach(function(l){h+=line(l)});h+=NL});el.innerHTML=h+pr()+cur;return}
+function run(){
+ var base="",si=0;
+ function step(){
+  if(si>=steps.length){el.innerHTML=base+pr()+cur;setTimeout(function(){el.innerHTML="";run()},5000);return}
+  var st=steps[si],i=0;
+  (function type(){
+   if(i<=st.c.length){el.innerHTML=base+pr()+esc(st.c.slice(0,i))+cur;i++;setTimeout(type,st.c.length>60?22:40)}
+   else{base+=pr()+esc(st.c)+NL;var n=0;
+    (function out(){
+     if(n<st.o.length){base+=line(st.o[n]);el.innerHTML=base+cur;n++;setTimeout(out,350)}
+     else{base+=NL;si++;setTimeout(step,700)}
+    })()}
+  })()}
+ step()}
+run()})();
+</script>
+</body></html>
